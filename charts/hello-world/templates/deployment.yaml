@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v2.1
 kind: Deployment
 metadata:
   name: {{ include "hello-world.fullname" . }}
